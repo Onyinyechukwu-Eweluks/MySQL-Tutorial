@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const conn = require('../../db2')
+const conn = require('../../../db/db2')
 
 router.get('/customers', (req, res, next) => {
     conn.query('SELECT * FROM users.customers;', (err, result, fields) => {

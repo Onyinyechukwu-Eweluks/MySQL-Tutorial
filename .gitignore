@@ -10,6 +10,7 @@
 
 # production
 /build
+src/db
 
 # misc
 .DS_Store
